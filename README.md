@@ -36,13 +36,12 @@ SAGE2 can then be run with the corrected reads using the command:
 
 Full list of options:
 	-f|--fileInput <string>
-			Input file in fasta/fastq format (interleaved). Mutually
+			Input file in FASTA/FASTQ format (interleaved). Mutually
 			exclusive with option -l|--listInput. [Required]
 
 	-l|--listInput <string>
-			A list of input files in fasta/fastq format. Mutually exclusive
-			with option -f|--fileInput. (for more information consult with
-			the README file). [Required]
+			A list of input files in FASTA/FASTQ format. Mutually exclusive
+			with option -f|--fileInput. [Required]
 
 	-k|--minOverlap <int>
 			The minimum length of an overlap to be considered for graph
