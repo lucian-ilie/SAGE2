@@ -105,6 +105,6 @@ OUTPUT FILES
 =============================================================================
 SAGE2 produces several output files in the directory when using the -s option.
 This option is required if you plan on rerunning the assembly from a minimum
-step other than 1. SAGE2 outputs the contig file (.fasta) and the scaffold
-file.  The contig file is named prefix_contig.fasta and the scaffold file is
-named prefix_scaffold.fasta.
+step other than step 1. SAGE2 outputs a contig file and a scaffold file.  The 
+contig file is named prefix_contig.fasta and the scaffold file is named 
+prefix_scaffold.fasta.
