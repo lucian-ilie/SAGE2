@@ -88,22 +88,16 @@ in the list with the forward reads first and then the reverse reads next.  The
 files must be listed as f1 and f2:
 
 f1=forwardReads.fastq
-
 f2=reverseReads.fastq
 
 Multiple paired-end read files can be listed and interlaced paired-end read 
 files can be used with the letter f:
 
 f1=forwardReads1.fastq
-
 f2=reverseReads1.fastq
-
 f1=forwardReads2.fastq
-
 f2=reverseReads2.fastq
-
 f=interlacedReads1.fastq
-
 f=interlacedreverseReads.fastq
 
 
