@@ -28,10 +28,7 @@ Run RACER using the command:
 
 < inputReads > is the input file containing the reads in FASTA or FASTQ format.  
 < correctedReads > is the file name that will contain the corrected reads.  
-< genomeLength > is the approximate length of the DNA molecule in base pairs.  
-	- if only parts of a genome were sequenced, then only the total length of 
-	  those parts should be used (instead of the length of the total genome).  
-	- a precise value is not necessary, an approximation will work well.
+< genomeLength > is the approximate length of the sampled genome in base pairs. If only parts of a genome were sequenced, then only the total length of those parts should be used (instead of the length of the total genome).  A precise value is not necessary, an approximation will work well.
 
 SAGE2 can then be run with the corrected reads using the command:
 
