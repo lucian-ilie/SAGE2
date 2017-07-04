@@ -97,9 +97,12 @@ f1=forwardReads1.fastq
 f2=reverseReads1.fastq  
 f1=forwardReads2.fastq  
 f2=reverseReads2.fastq  
+f1=forwardReads3.fastq  
+f2=reverseReads3.fastq  
 f=interlacedReads1.fastq  
-f=interlacedreverseReads.fastq  
-
+f=interlacedReads2.fastq  
+f=interlacedReads3.fastq
+f=interlacedReads4.fastq
 
 OUTPUT FILES
 =============================================================================
