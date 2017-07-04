@@ -34,7 +34,7 @@ SAGE2 can then be run with the corrected reads using the command:
 
 	SAGE2 [options] -f <input file> -k <minimum overlap length>
 
-Full list of options:
+Full list of options:  
 	-f|--fileInput <string>
 			Input file in FASTA/FASTQ format (interleaved). Mutually
 			exclusive with option -l|--listInput. [Required]
