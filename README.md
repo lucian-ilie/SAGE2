@@ -8,23 +8,31 @@ Human genomes require approximately 250GB - 450GB of memory.
 INSTALLATION
 =============================================================================
 
-Clone the SAGE2 repository:
+Installing from Anaconda or Bioconda:
+	
+	conda install -c mmolnar sage2
+
+Installing from GitHub:
 
 	git clone https://github.com/lucian-ilie/SAGE2
 
-Change to the SAGE2 folder and type:
+Then change to the SAGE2 folder and type:
 
 	make
 
 RUNNING SAGE2
 =============================================================================
-The reads should be corrected first using RACER which can be downloaded here:
+The reads should be corrected first using RACER which can be installed from Anaconda or Bioconda:
+
+	conda install -c mmolnar racer
+
+Or from GitHub:
 
 	https://github.com/lucian-ilie/RACER
 
 Run RACER using the command:
 
-	RACER < inputReads > < correctedReads > < genomeLength >
+	racer < inputReads > < correctedReads > < genomeLength >
 
 < inputReads > is the input file containing the reads in FASTA or FASTQ format.  
 < correctedReads > is the file name that will contain the corrected reads.  
