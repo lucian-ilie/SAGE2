@@ -87,7 +87,7 @@ Full list of options:
 INPUT DATASET
 =============================================================================
 SAGE2 accepts FASTA and FASTQ input files. Paired-end reads should be placed 
-one after another (interlaced) in the input file.  If using an input list of 
+one after another (interlaced) in the input file.  SAGE2 does not use single end reads. If using an input list of 
 read files the forward and reverse files for paired-end reads must be followed
 one after the other in the list with the forward reads first and then the 
 reverse reads next.  The files must be listed as f1 and f2:
